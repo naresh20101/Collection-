@@ -54,12 +54,13 @@ public class CustomerList {
 					r.setPrice(p1.getPrice());
 					r.setQuantity(quantity);
 					receipt.add(r);
-					
+					break;
 					
 				}
 				else
 				{
 					System.out.println(p1.getName()+ " is out of Stock");
+					break;
 				}
 			}
 			else
